@@ -1,0 +1,12 @@
+/** @type {import('prettier').Config} */
+module.exports = {
+  arrowParens: 'always',
+  trailingComma: 'all',
+  bracketSpacing: true,
+  singleQuote: true,
+  endOfLine: 'lf',
+  printWidth: 80,
+  useTabs: false,
+  tabWidth: 2,
+  semi: true,
+};
