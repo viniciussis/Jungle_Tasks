@@ -16,12 +16,27 @@
     "dev": "turbo run dev",
     "test": "echo \"Error: no test specified\" && exit 1",
     "tree": "bash -c \"tree -I 'node_modules|dist' > project-structure.tree\"",
-    "diff": "git diff HEAD > changes.diff"
+    "diff": "git diff HEAD > changes.diff",
+    "lint": "turbo run lint",
+    "format": "turbo run format",
+    "prepare": "husky install",
+    "lint-staged": "lint-staged"
+  },
+  "lint-staged": {
+    "*.{ts,tsx,js,jsx}": [
+      "eslint --fix",
+      "prettier --write"
+    ],
+    "*.{json,md}": [
+      "prettier --write"
+    ]
   },
   "license": "ISC",
   "packageManager": "pnpm@10.18.3",
   "devDependencies": {
     "eslint": "^9.37.0",
+    "husky": "^8.0.0",
+    "lint-staged": "^16.2.4",
     "prettier": "^3.6.2",
     "turbo": "^2.5.8"
   },
