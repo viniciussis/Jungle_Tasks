@@ -6,7 +6,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/viniciussis/Jungle_Tasks"
   },
   "workspaces": [
     "apps/*",
