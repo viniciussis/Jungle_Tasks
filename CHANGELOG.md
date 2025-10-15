@@ -11,6 +11,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
+- Created shared TypeScript configuration package (`@jungle-tasks/tsconfig`) with presets for `base`, `node`, and `react`.
+- Created placeholder packages for shared types (`@jungle-tasks/types`) and utilities (`@jungle-tasks/utils`).
 - Created shared ESLint configuration package (`@jungle-tasks/eslint-config`) with base, Node, and React presets.
 - Added a root Prettier configuration file (`.prettierrc.js`) to enforce code style.
 - Installed ESLint and Prettier as root development dependencies.
@@ -18,7 +20,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
-- Renamed project in `package.json` from `jungle_tasks` to `jungle-tasks` to follow npm naming conventions[cite: 14].
+- Renamed project in `package.json` from `jungle_tasks` to `jungle-tasks` to follow npm naming conventions.
 
 ### Fixed
 
