@@ -26,8 +26,8 @@ Every `TODO:`, `IN PROGRESS:`, or `DONE:` tag in this file and in the code will 
 - [x] ✅ **DONE:** Create base documentation (`README.md`, `GIT_FLOW.md`, `CHANGELOG.md`).
 - [x] ✅ **DONE:** Add `DEVELOPMENT_PLAN.md` (this document).
 - [x] ✅ **DONE:** Configure shared ESLint + Prettier in `/packages/eslint-config`.
-- [ ] 🚧 **IN PROGRESS:** Configure shared TypeScript base config in `/packages/tsconfig`.
-- [ ] 🧩 **TODO:** Add Husky + lint-staged for pre-commit validation.
+- [x] ✅ **DONE:** Configure shared TypeScript base config in `/packages/tsconfig`.
+- [ ] 🚧 **IN PROGRESS:** Add Husky + lint-staged for pre-commit validation.
 
 ---
 

@@ -1,0 +1,30 @@
+{
+  "name": "@jungle-tasks/eslint-config",
+  "version": "0.1.0",
+  "description": "Shared ESLint configuration for all Jungle Tasks apps and packages.",
+  "main": "index.js",
+  "private": true,
+  "license": "ISC",
+  "author": "Vinícius Silva Santos",
+  "keywords": [
+    "eslint",
+    "config",
+    "monorepo",
+    "linting",
+    "typescript"
+  ],
+  "peerDependencies": {
+    "eslint": "^9.37.0",
+    "prettier": "^3.6.2",
+    "typescript": "^5.6.0"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^8.13.0",
+    "@typescript-eslint/parser": "^8.13.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-import": "^2.30.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "eslint-plugin-react": "^7.35.0",
+    "eslint-plugin-react-hooks": "^5.1.0"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "extends": "./base.json",
+  "compilerOptions": {
+    "lib": [
+      "ESNext"
+    ],
+    "module": "CommonJS",
+    "outDir": "dist",
+    "resolveJsonModule": true
+  },
+  "include": [
+    "src"
+  ]
+}

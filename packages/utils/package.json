@@ -1,0 +1,22 @@
+{
+  "name": "@jungle-tasks/utils",
+  "version": "0.1.0",
+  "description": "Shared utility functions and helpers for Jungle Tasks apps and services.",
+  "main": "index.ts",
+  "private": true,
+  "license": "ISC",
+  "author": "Vinícius Silva Santos",
+  "keywords": [
+    "utils",
+    "helpers",
+    "shared",
+    "typescript",
+    "monorepo"
+  ],
+  "dependencies": {
+    "@jungle-tasks/types": "workspace:*"
+  },
+  "devDependencies": {
+    "typescript": "workspace:*"
+  }
+}
