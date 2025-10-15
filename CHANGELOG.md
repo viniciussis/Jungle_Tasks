@@ -11,6 +11,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
+- Configured Husky and lint-staged to run ESLint and Prettier on pre-commit.
+- Added `lint` and `format` scripts to the root `package.json` and all shared packages.
 - Created shared TypeScript configuration package (`@jungle-tasks/tsconfig`) with presets for `base`, `node`, and `react`.
 - Created placeholder packages for shared types (`@jungle-tasks/types`) and utilities (`@jungle-tasks/utils`).
 - Created shared ESLint configuration package (`@jungle-tasks/eslint-config`) with base, Node, and React presets.
