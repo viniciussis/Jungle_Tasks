@@ -172,9 +172,9 @@ The complete, task-based plan is documented in `docs/DEVELOPMENT_PLAN.md`. The s
 
 This project contains internal docs to guide development and maintain consistency.
 
-- **[🧭 Git Flow](https://www.google.com/search?q=./docs/GIT_FLOW.md):** Our branching model and release strategy.
-- **[🗺️ Development Plan](https://www.google.com/search?q=./docs/DEVELOPMENT_PLAN.md):** The detailed, step-by-step plan for each feature.
-- **[🧾 Changelog](https://www.google.com/search?q=./CHANGELOG.md):** A log of all notable changes in each version.
+- **[🧭 Git Flow](./docs/GIT_FLOW.md):** Our branching model and release strategy.
+- **[🗺️ Development Plan](./docs/DEVELOPMENT_PLAN.md):** The detailed, step-by-step plan for each feature.
+- **[🧾 Changelog](./CHANGELOG.md):** A log of all notable changes in each version.
 
 -----
 
