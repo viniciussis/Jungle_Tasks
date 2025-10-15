@@ -1,0 +1,38 @@
+# OS and LOGS
+.DS_Store
+Thumbs.db
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-error.log*
+yarn-debug.log*
+
+# IDEs
+.vscode/
+.idea/
+
+# Package manager
+node_modules/
+
+# ENV Files
+*.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*.local
+!example.env
+
+# Next.js
+.next/
+out/
+
+# NestJS
+dist/
+
+# Turborepo
+.turbo/
+
+# Tests and coverage
+coverage/
+.jest-cache
