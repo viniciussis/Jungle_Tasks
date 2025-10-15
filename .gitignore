@@ -36,3 +36,8 @@ dist/
 # Tests and coverage
 coverage/
 .jest-cache
+
+# Development
+backup.txt
+changes.diff
+project-structure.tree
