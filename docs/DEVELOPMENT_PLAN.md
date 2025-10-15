@@ -8,6 +8,7 @@
 ## 🧩 VS Code Integration (TODO Tree / TODO Highlight)
 
 Before starting, install these VS Code extensions to track progress directly from your editor:
+
 1.  **TODO Tree**
 2.  **Todo Highlight**
 
@@ -24,8 +25,8 @@ Every `TODO:`, `IN PROGRESS:`, or `DONE:` tag in this file and in the code will 
 - [x] ✅ **DONE:** Define repository metadata in root `package.json`.
 - [x] ✅ **DONE:** Create base documentation (`README.md`, `GIT_FLOW.md`, `CHANGELOG.md`).
 - [x] ✅ **DONE:** Add `DEVELOPMENT_PLAN.md` (this document).
-- [ ] 🚧 **IN PROGRESS:** Configure shared ESLint + Prettier in `/packages/eslint-config`.
-- [ ] 🧩 **TODO:** Configure shared TypeScript base config in `/packages/tsconfig`.
+- [x] ✅ **DONE:** Configure shared ESLint + Prettier in `/packages/eslint-config`.
+- [ ] 🚧 **IN PROGRESS:** Configure shared TypeScript base config in `/packages/tsconfig`.
 - [ ] 🧩 **TODO:** Add Husky + lint-staged for pre-commit validation.
 
 ---
@@ -34,7 +35,7 @@ Every `TODO:`, `IN PROGRESS:`, or `DONE:` tag in this file and in the code will 
 
 **Goal:** Build the core microservice responsible for user identity and security.
 
-- [ ] 🚧 **IN PROGRESS:** Create `apps/auth-service` using Nest.js.
+- [ ] 🧩 **TODO:** Create `apps/auth-service` using Nest.js.
 - [ ] 🧩 **TODO:** Establish PostgreSQL connection with TypeORM.
 - [ ] 🧩 **TODO:** Implement User entity and initial database migration.
 - [ ] 🧩 **TODO:** Implement user registration endpoint with bcrypt password hashing.
@@ -144,6 +145,6 @@ Every `TODO:`, `IN PROGRESS:`, or `DONE:` tag in this file and in the code will 
 
 **Author:** Vinícius Silva Santos
 **Project:** 🪴 Jungle Tasks — Full-Stack Challenge @ Jungle Gaming
-**Last Updated:** October 14th, 2025
+**Last Updated:** October 15th, 2025
 
 ---
