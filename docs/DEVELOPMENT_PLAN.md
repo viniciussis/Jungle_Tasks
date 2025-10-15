@@ -27,7 +27,7 @@ Every `TODO:`, `IN PROGRESS:`, or `DONE:` tag in this file and in the code will 
 - [x] ✅ **DONE:** Add `DEVELOPMENT_PLAN.md` (this document).
 - [x] ✅ **DONE:** Configure shared ESLint + Prettier in `/packages/eslint-config`.
 - [x] ✅ **DONE:** Configure shared TypeScript base config in `/packages/tsconfig`.
-- [ ] 🚧 **IN PROGRESS:** Add Husky + lint-staged for pre-commit validation.
+- [x] ✅ **DONE:** Add Husky + lint-staged for pre-commit validation.
 
 ---
 
@@ -35,7 +35,7 @@ Every `TODO:`, `IN PROGRESS:`, or `DONE:` tag in this file and in the code will 
 
 **Goal:** Build the core microservice responsible for user identity and security.
 
-- [ ] 🧩 **TODO:** Create `apps/auth-service` using Nest.js.
+- [ ] 🚧 **IN PROGRESS:** Create `apps/auth-service` using Nest.js.
 - [ ] 🧩 **TODO:** Establish PostgreSQL connection with TypeORM.
 - [ ] 🧩 **TODO:** Implement User entity and initial database migration.
 - [ ] 🧩 **TODO:** Implement user registration endpoint with bcrypt password hashing.
