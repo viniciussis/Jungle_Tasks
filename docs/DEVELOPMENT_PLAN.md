@@ -142,33 +142,6 @@ Every `TODO:`, `IN PROGRESS:`, or `DONE:` tag in this file and in the code will 
 
 ---
 
-## 🧩 VS Code Integration (TODO Tree / TODO Highlight)
-
-To use this plan effectively:
-
-1. Install extensions:
-   - **TODO Tree**
-   - **Todo Highlight**
-
-2. Configure your VS Code settings (optional):
-
-```json
-   "todo-tree.tree.showScanModeButton": false,
-   "todo-tree.highlights.defaultHighlight": {
-     "background": "#003366",
-     "foreground": "#FFFFFF"
-   },
-   "todo-tree.highlights.customHighlight": {
-     "TODO": { "icon": "checklist", "type": "line", "background": "#0066FF" },
-     "IN PROGRESS": { "icon": "flame", "type": "line", "background": "#FF9900" },
-     "DONE": { "icon": "check", "type": "line", "background": "#00AA55" }
-   }
-```
-
-3. Now every `TODO:`, `IN PROGRESS:` or `DONE:` tag inside your markdown and code will appear in the **TODO Tree panel**.
-
----
-
 **Author:** Vinícius Silva Santos
 **Project:** 🪴 Jungle Tasks — Full-Stack Challenge @ Jungle Gaming
 **Last Updated:** October 14th, 2025

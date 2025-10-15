@@ -176,4 +176,3 @@ git branch -d hotfix/fix-refresh-token
 **Project:** 🪴 Jungle Tasks — Full-Stack Challenge @ Jungle Gaming
 **Last Updated:** October 14th, 2025
 
-```
