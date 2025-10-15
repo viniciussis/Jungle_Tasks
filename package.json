@@ -1,5 +1,5 @@
 {
-  "name": "jungle_tasks",
+  "name": "jungle-tasks",
   "author": "Vinícius Silva Santos",
   "version": "0.1.0",
   "description": "A full-stack collaborative task management system built with React, NestJS, and RabbitMQ — featuring real-time notifications, authentication, and a clean, responsive UI. Designed as a monorepo powered by Turborepo and PNPM.",
@@ -15,11 +15,14 @@
   "scripts": {
     "dev": "turbo run dev",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "tree": "bash -c \"tree -I 'node_modules|dist' > project-structure.tree\""
+    "tree": "bash -c \"tree -I 'node_modules|dist' > project-structure.tree\"",
+    "diff": "git diff HEAD > changes.diff"
   },
   "license": "ISC",
   "packageManager": "pnpm@10.18.3",
   "devDependencies": {
+    "eslint": "^9.37.0",
+    "prettier": "^3.6.2",
     "turbo": "^2.5.8"
   },
   "keywords": [
