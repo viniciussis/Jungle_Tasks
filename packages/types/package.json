@@ -1,0 +1,19 @@
+{
+  "name": "@jungle-tasks/types",
+  "version": "0.1.0",
+  "description": "Shared TypeScript types across Jungle Tasks services and frontend.",
+  "main": "index.ts",
+  "private": true,
+  "license": "ISC",
+  "author": "Vinícius Silva Santos",
+  "keywords": [
+    "typescript",
+    "types",
+    "shared",
+    "monorepo"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "workspace:*"
+  }
+}
