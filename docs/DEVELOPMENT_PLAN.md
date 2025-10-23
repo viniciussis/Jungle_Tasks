@@ -35,8 +35,8 @@ Every `TODO:`, `IN PROGRESS:`, or `DONE:` tag in this file and in the code will 
 
 **Goal:** Build the core microservice responsible for user identity and security.
 
-- [ ] 🚧 **IN PROGRESS:** Create `apps/auth-service` using Nest.js.
-- [ ] 🧩 **TODO:** Establish PostgreSQL connection with TypeORM.
+- [x] ✅ **DONE:** Create `apps/auth-service` using Nest.js.
+- [ ] 🚧 **IN PROGRESS:** Establish PostgreSQL connection with TypeORM.
 - [ ] 🧩 **TODO:** Implement User entity and initial database migration.
 - [ ] 🧩 **TODO:** Implement user registration endpoint with bcrypt password hashing.
 - [ ] 🧩 **TODO:** Implement login endpoint (generate JWT access + refresh tokens).
