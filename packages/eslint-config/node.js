@@ -1,8 +1,27 @@
-import tsPlugin from '@typescript-eslint/eslint-plugin';
-import importPlugin from 'eslint-plugin-import';
-import prettierPlugin from 'eslint-plugin-prettier';
+import globals from 'globals';
+import base from './base.js';
 
-export default {
+export default [
+  ...base,
+  {
+    files: ['**/*.js'],
+    languageOptions: {
+      globals: {
+        ...globals.node,
+      },
+      parser: '@typescript-eslint/parser',
+      parserOptions: {
+        ecmaVersion: 'latest',
+        sourceType: 'module',
+      },
+    },
+    rules: {
+      'no-process-exit': 'off',
+    },
+  },
+];
+
+/* const backup = {
   languageOptions: {
     parser: '@typescript-eslint/parser',
     parserOptions: {
@@ -27,3 +46,4 @@ export default {
     '@typescript-eslint/no-var-requires': 'off',
   },
 };
+ */
